@@ -1,0 +1,83 @@
+.form-container {
+	width: 420px;
+	margin: 50px auto;
+	padding: 30px 25px;
+	background-color: #ffffff;
+	border: 1px solid #e0e0e0;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	color: #444;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+h:outputLabel, label {
+	font-weight: bold;
+	color: #333;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 8px 10px;
+	margin: 4px 0 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 14px;
+}
+
+.btn-salvar, .btn-limpar {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	font-size: 16px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	margin: 5px;
+	text-align: center;
+	min-width: 120px; /* largura mínima agradável */
+}
+
+/* Hover para Salvar */
+.btn-salvar:hover {
+	background-color: #0056b3;
+}
+
+/* Estilo diferente para Limpar */
+.btn-limpar {
+	background-color: #dc3545;
+}
+
+.btn-limpar:hover {
+	background-color: #c82333;
+}
+
+.btn-limpar:hover {
+	background-color: #c82333;
+}
+
+.panel-group {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.mensagem-retorno {
+    display: block;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #d4edda; /* Verde claro */
+    border: 1px solid #c3e6cb; /* Borda verde */
+    border-radius: 8px;
+    color: #155724; /* Verde escuro no texto */
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
