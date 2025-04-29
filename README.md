@@ -1,2 +1,2 @@
 # Atividade-JSF
- “Projeto de aplicaçãoJava com Eclipse.
+ “Projeto de aplicação Java com Eclipse.
